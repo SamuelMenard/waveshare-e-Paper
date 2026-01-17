@@ -58,7 +58,7 @@ int EPD_7in3e_test(void)
     printf("show bmp1-----------------\r\n");
     Paint_SelectImage(BlackImage);
     Paint_Clear(EPD_7IN3E_WHITE);
-    GUI_ReadBmp_RGB_6Color("./pic/dithered_image_genetec.bmp", 0, 0);
+    GUI_ReadBmp_RGB_6Color("./pic/chiqui.bmp", 0, 0);
     EPD_7IN3E_Display(BlackImage);
     DEV_Delay_ms(60000);
 
